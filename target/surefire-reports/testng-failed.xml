@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTestsSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Login Selenium Test(failed)" verbose="0">
+    <classes>
+      <class name="FourthTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="addRemoveItemsInCart"/>
+          <include name="teardownTest"/>
+        </methods>
+      </class> <!-- FourthTest -->
+    </classes>
+  </test> <!-- Login Selenium Test(failed) -->
+</suite> <!-- Failed suite [AllTestsSuite] -->
