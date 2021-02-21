@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-19T19:01:24Z" name="AllTestsSuite" finished-at="2021-02-19T19:02:27Z" duration-ms="62672">
+  <suite started-at="2021-02-20T23:57:30Z" name="AllTestsSuite" finished-at="2021-02-20T23:58:15Z" duration-ms="44413">
     <groups>
     </groups>
-    <test started-at="2021-02-19T19:01:24Z" name="Login Selenium Test" finished-at="2021-02-19T19:02:27Z" duration-ms="62672">
+    <test started-at="2021-02-20T23:57:30Z" name="Login Selenium Test" finished-at="2021-02-20T23:58:15Z" duration-ms="44413">
       <class name="SecondTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-19T19:01:35Z" name="setupTest" finished-at="2021-02-19T19:01:39Z" duration-ms="3924" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-20T23:57:37Z" name="setupTest" finished-at="2021-02-20T23:57:40Z" duration-ms="3136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="addToShoppingCartTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-19T19:01:39Z" name="addToShoppingCartTest" finished-at="2021-02-19T19:01:46Z" duration-ms="6143" status="PASS">
+        <test-method signature="addToShoppingCartTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-20T23:57:40Z" name="addToShoppingCartTest" finished-at="2021-02-20T23:57:42Z" duration-ms="2207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToShoppingCartTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-19T19:01:46Z" name="teardownTest" finished-at="2021-02-19T19:01:46Z" duration-ms="722" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-20T23:57:42Z" name="teardownTest" finished-at="2021-02-20T23:57:43Z" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- SecondTest -->
       <class name="ThirdTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-19T19:01:46Z" name="setupTest" finished-at="2021-02-19T19:01:50Z" duration-ms="4022" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-20T23:57:43Z" name="setupTest" finished-at="2021-02-20T23:57:46Z" duration-ms="3264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="addTwoItemsToShoppingCartTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-19T19:01:50Z" name="addTwoItemsToShoppingCartTest" finished-at="2021-02-19T19:01:58Z" duration-ms="7602" status="PASS">
+        <test-method signature="addTwoItemsToShoppingCartTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-20T23:57:46Z" name="addTwoItemsToShoppingCartTest" finished-at="2021-02-20T23:57:52Z" duration-ms="6454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTwoItemsToShoppingCartTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-19T19:01:58Z" name="teardownTest" finished-at="2021-02-19T19:01:59Z" duration-ms="727" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-20T23:57:52Z" name="teardownTest" finished-at="2021-02-20T23:57:53Z" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- ThirdTest -->
       <class name="FourthTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-19T19:01:59Z" name="setupTest" finished-at="2021-02-19T19:02:03Z" duration-ms="3976" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-20T23:57:53Z" name="setupTest" finished-at="2021-02-20T23:57:56Z" duration-ms="3193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="addRemoveItemsInShoppingCartTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-19T19:02:03Z" name="addRemoveItemsInShoppingCartTest" finished-at="2021-02-19T19:02:12Z" duration-ms="8915" status="PASS">
+        <test-method signature="addRemoveItemsInShoppingCartTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-20T23:57:56Z" name="addRemoveItemsInShoppingCartTest" finished-at="2021-02-20T23:58:04Z" duration-ms="7533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addRemoveItemsInShoppingCartTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-19T19:02:12Z" name="teardownTest" finished-at="2021-02-19T19:02:12Z" duration-ms="750" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-20T23:58:04Z" name="teardownTest" finished-at="2021-02-20T23:58:04Z" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- FourthTest -->
       <class name="FifthTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-19T19:02:12Z" name="setupTest" finished-at="2021-02-19T19:02:18Z" duration-ms="5936" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-20T23:58:04Z" name="setupTest" finished-at="2021-02-20T23:58:08Z" duration-ms="3169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="changeProfileDataTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-19T19:02:18Z" name="changeProfileDataTest" finished-at="2021-02-19T19:02:26Z" duration-ms="8011" status="PASS">
+        <test-method signature="changeProfileDataTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-20T23:58:08Z" name="changeProfileDataTest" finished-at="2021-02-20T23:58:14Z" duration-ms="6040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeProfileDataTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-19T19:02:26Z" name="teardownTest" finished-at="2021-02-19T19:02:27Z" duration-ms="717" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-20T23:58:14Z" name="teardownTest" finished-at="2021-02-20T23:58:15Z" duration-ms="1148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- FifthTest -->
       <class name="FirstTest">
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-19T19:01:24Z" name="setupTest" finished-at="2021-02-19T19:01:29Z" duration-ms="4652" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-20T23:57:30Z" name="setupTest" finished-at="2021-02-20T23:57:34Z" duration-ms="3699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="logInTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-19T19:01:29Z" name="logInTest" finished-at="2021-02-19T19:01:34Z" duration-ms="5310" status="PASS">
+        <test-method signature="logInTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-20T23:57:34Z" name="logInTest" finished-at="2021-02-20T23:57:36Z" duration-ms="1850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-19T19:01:34Z" name="teardownTest" finished-at="2021-02-19T19:01:35Z" duration-ms="1241" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-20T23:57:36Z" name="teardownTest" finished-at="2021-02-20T23:57:37Z" duration-ms="669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->

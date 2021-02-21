@@ -39,6 +39,8 @@ public class ThirdTest {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0, 300)");
         //Buy a computer with the button "KUPI"
+        WebDriverWait waitForBuy = new WebDriverWait(driver,2);
+        waitForBuy.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"products-list-inner\"]/section[1]/div[3]/div[2]")));
         WebElement buyComputerButton = driver.findElement(By.xpath("//*[@id=\"products-list-inner\"]/section[1]/div[3]/div[2]"));
         buyComputerButton.click();
         //Continue Shopping -> add to cart (dodati u košaricu)

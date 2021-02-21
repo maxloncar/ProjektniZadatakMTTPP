@@ -29,16 +29,18 @@ public class SecondTest {
         //Explicit wait until navbar element "Računala" is visible
         WebDriverWait wait = new WebDriverWait(driver,2);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[3]")));
-        //Click on "Računala" in navigation bar
+        //Click on "RAČUNALA" in navigation bar
         WebElement computers = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[3]"));
         computers.click();
-        //Click on "Računala za kućnu primjenu"
+        //Click on "RAČUNALA ZA KUĆNU PRIMJENU"
         WebElement desktopComputer = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[3]/div/div[2]/nav/a[1]"));
         desktopComputer.click();
         //Javascript is used for scrolling down so we can press the button
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,300)");
         //Buy a computer with the button "KUPI"
+        WebDriverWait waitForBuy = new WebDriverWait(driver,2);
+        waitForBuy.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"products-list-inner\"]/section[1]/div[3]/div[2]")));
         WebElement buyButton = driver.findElement(By.xpath("//*[@id=\"products-list-inner\"]/section[1]/div[3]/div[2]"));
         buyButton.click();
         //Complete the purchase with the button "Završi kupovinu"
