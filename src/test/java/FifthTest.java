@@ -44,8 +44,8 @@ public class FifthTest {
         //Click on button "PRIJAVI SE"
         driver.findElement(By.xpath("//*[@id=\"aspnetForm\"]/div[6]/input")).click();
         //Explicit wait until "Profil" is visible
-        WebDriverWait waitForProfil = new WebDriverWait(driver,2);
-        waitForProfil.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"tertiary-topbar-nav\"]/a[5]")));
+        WebDriverWait waitForProfile = new WebDriverWait(driver,2);
+        waitForProfile.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"tertiary-topbar-nav\"]/a[5]")));
         //Click on navbar element "Profil" in the top right corner
         WebElement checkProfile = driver.findElement(By.xpath("//*[@id=\"tertiary-topbar-nav\"]/a[5]"));
         checkProfile.click();
@@ -60,7 +60,7 @@ public class FifthTest {
         //Scroll down
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0, 500)");
-        //Save changes
+        //Click on button "Spremi nove podatke"
         WebElement saveChanges = driver.findElement(By.xpath("//*[@id=\"adresa-isporuke\"]/section[3]/input[2]"));
         saveChanges.click();
         //Expected phone number
