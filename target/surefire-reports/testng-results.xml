@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2021-02-20T23:57:30Z" name="AllTestsSuite" finished-at="2021-02-20T23:58:15Z" duration-ms="44413">
     <groups>
     </groups>
@@ -16,11 +17,28 @@
           </reporter-output>
         </test-method> <!-- addToShoppingCartTest -->
         <test-method is-config="true" signature="teardownTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-20T23:57:42Z" name="teardownTest" finished-at="2021-02-20T23:57:43Z" duration-ms="677" status="PASS">
+=======
+  <suite started-at="2021-02-26T21:51:26Z" name="AllTestsSuite" finished-at="2021-02-26T21:52:06Z" duration-ms="40029">
+    <groups>
+    </groups>
+    <test started-at="2021-02-26T21:51:26Z" name="Login Selenium Test" finished-at="2021-02-26T21:52:06Z" duration-ms="40029">
+      <class name="SecondTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-26T21:51:34Z" name="setupTest" finished-at="2021-02-26T21:51:38Z" duration-ms="3716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="addToShoppingCartTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-26T21:51:38Z" name="addToShoppingCartTest" finished-at="2021-02-26T21:51:40Z" duration-ms="2680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToShoppingCartTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:SecondTest@4facf68f]" started-at="2021-02-26T21:51:40Z" name="teardownTest" finished-at="2021-02-26T21:51:41Z" duration-ms="670" status="PASS">
+>>>>>>> development
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- SecondTest -->
       <class name="ThirdTest">
+<<<<<<< HEAD
         <test-method is-config="true" signature="setupTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-20T23:57:43Z" name="setupTest" finished-at="2021-02-20T23:57:46Z" duration-ms="3264" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -30,11 +48,23 @@
           </reporter-output>
         </test-method> <!-- addTwoItemsToShoppingCartTest -->
         <test-method is-config="true" signature="teardownTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-20T23:57:52Z" name="teardownTest" finished-at="2021-02-20T23:57:53Z" duration-ms="666" status="PASS">
+=======
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-26T21:51:41Z" name="setupTest" finished-at="2021-02-26T21:51:45Z" duration-ms="3529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="addTwoItemsToShoppingCartTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-26T21:51:45Z" name="addTwoItemsToShoppingCartTest" finished-at="2021-02-26T21:51:48Z" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTwoItemsToShoppingCartTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:ThirdTest@76508ed1]" started-at="2021-02-26T21:51:48Z" name="teardownTest" finished-at="2021-02-26T21:51:49Z" duration-ms="631" status="PASS">
+>>>>>>> development
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- ThirdTest -->
       <class name="FourthTest">
+<<<<<<< HEAD
         <test-method is-config="true" signature="setupTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-20T23:57:53Z" name="setupTest" finished-at="2021-02-20T23:57:56Z" duration-ms="3193" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -44,11 +74,23 @@
           </reporter-output>
         </test-method> <!-- addRemoveItemsInShoppingCartTest -->
         <test-method is-config="true" signature="teardownTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-20T23:58:04Z" name="teardownTest" finished-at="2021-02-20T23:58:04Z" duration-ms="689" status="PASS">
+=======
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-26T21:51:49Z" name="setupTest" finished-at="2021-02-26T21:51:52Z" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="addRemoveItemsInShoppingCartTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-26T21:51:52Z" name="addRemoveItemsInShoppingCartTest" finished-at="2021-02-26T21:51:58Z" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveItemsInShoppingCartTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:FourthTest@41e36e46]" started-at="2021-02-26T21:51:58Z" name="teardownTest" finished-at="2021-02-26T21:51:59Z" duration-ms="1104" status="PASS">
+>>>>>>> development
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- FourthTest -->
       <class name="FifthTest">
+<<<<<<< HEAD
         <test-method is-config="true" signature="setupTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-20T23:58:04Z" name="setupTest" finished-at="2021-02-20T23:58:08Z" duration-ms="3169" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -58,11 +100,23 @@
           </reporter-output>
         </test-method> <!-- changeProfileDataTest -->
         <test-method is-config="true" signature="teardownTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-20T23:58:14Z" name="teardownTest" finished-at="2021-02-20T23:58:15Z" duration-ms="1148" status="PASS">
+=======
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-26T21:51:59Z" name="setupTest" finished-at="2021-02-26T21:52:03Z" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="changeProfileDataTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-26T21:52:03Z" name="changeProfileDataTest" finished-at="2021-02-26T21:52:06Z" duration-ms="3232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeProfileDataTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:FifthTest@15c43bd9]" started-at="2021-02-26T21:52:06Z" name="teardownTest" finished-at="2021-02-26T21:52:06Z" duration-ms="653" status="PASS">
+>>>>>>> development
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- FifthTest -->
       <class name="FirstTest">
+<<<<<<< HEAD
         <test-method is-config="true" signature="setupTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-20T23:57:30Z" name="setupTest" finished-at="2021-02-20T23:57:34Z" duration-ms="3699" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -72,6 +126,17 @@
           </reporter-output>
         </test-method> <!-- logInTest -->
         <test-method is-config="true" signature="teardownTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-20T23:57:36Z" name="teardownTest" finished-at="2021-02-20T23:57:37Z" duration-ms="669" status="PASS">
+=======
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-26T21:51:26Z" name="setupTest" finished-at="2021-02-26T21:51:30Z" duration-ms="3762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="logInTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-26T21:51:30Z" name="logInTest" finished-at="2021-02-26T21:51:33Z" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:FirstTest@4ac3c60d]" started-at="2021-02-26T21:51:33Z" name="teardownTest" finished-at="2021-02-26T21:51:34Z" duration-ms="1449" status="PASS">
+>>>>>>> development
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
