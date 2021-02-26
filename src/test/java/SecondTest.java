@@ -28,12 +28,12 @@ public class SecondTest {
     public void addToShoppingCartTest() throws InterruptedException {
         //Explicit wait until navbar element "Računala" is visible
         WebDriverWait wait = new WebDriverWait(driver,2);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[3]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[1]")));
         //Click on "RAČUNALA" in navigation bar
-        WebElement computers = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[3]"));
+        WebElement computers = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[1]"));
         computers.click();
         //Click on "RAČUNALA ZA KUĆNU PRIMJENU"
-        WebElement desktopComputer = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[3]/div/div[2]/nav/a[1]"));
+        WebElement desktopComputer = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[1]/div/div[2]/nav/a[1]"));
         desktopComputer.click();
         //Javascript is used for scrolling down so we can press the button
         JavascriptExecutor js = (JavascriptExecutor) driver;

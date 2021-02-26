@@ -28,12 +28,12 @@ public class FourthTest {
     public void addRemoveItemsInShoppingCartTest() throws InterruptedException {
         //Explicit wait until navbar element "Računala" is visible
         WebDriverWait wait = new WebDriverWait(driver,2);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[3]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[1]")));
         //Click on "RAČUNALA" in navigation bar
-        WebElement computers = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[3]"));
+        WebElement computers = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[1]"));
         computers.click();
         //Click on "RAČUNALA ZA KUĆNU PRIMJENU"
-        WebElement desktopComputer = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[3]/div/div[2]/nav/a[1]"));
+        WebElement desktopComputer = driver.findElement(By.xpath("//*[@id=\"primary-desktop-nav\"]/nav/ul/li[1]/div/div[2]/nav/a[1]"));
         desktopComputer.click();
         //Javascript is used for scrolling down so we can press the button
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -72,6 +72,8 @@ public class FourthTest {
         //Scroll down
         js.executeScript("window.scrollBy(0, 300)");
         //Click on the button "Sljedeći"
+        WebDriverWait waitForNext = new WebDriverWait(driver, 3);
+        waitForNext.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[6]/div[2]/button[2]")));
         WebElement buttonNext = driver.findElement(By.xpath("/html/body/div[6]/div[2]/button[2]"));
         buttonNext.click();
         //String when user completes the purchase
