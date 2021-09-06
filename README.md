@@ -1,4 +1,4 @@
-# ProjektniZadatakMTTPP - testing web shop
+# ProjektniZadatakMTTPP - Selenium testing web shop
 Projektni zadatak iz kolegija "Metode i tehnike testiranja programske podrške"
 
 Na osnovu metoda i tehnika upoznatih tijekom izvođenja laboratorijskih vježbi, 
